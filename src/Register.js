@@ -8,7 +8,7 @@ import logo from "../assets/trackit_logo.png"
 import UserContext from "./context/UserContext";
 
 
-const URL = "https://mock-api.bootcamp.respondeai.com.br/api/v2/trackit/auth/sign-up"
+
 
 export default function Register() {
     const navigate = useNavigate();
@@ -24,14 +24,6 @@ export default function Register() {
         const registry = { email: email, name: userName, image: picture, password: password }
         setInteract(false)
 
-        const promise = axios.post(URL, registry);
-
-        promise.then((res) => {
-            toggleInputs();
-            navigate("/")
-        });
-        promise.catch((err) => { alert(err.response.data.message); setEmail(''); setInteract(true); });
-    }
 
     function toggleInputs() {
         setInteract(true);
