@@ -74,7 +74,7 @@ const Title = styled.h1`
   margin-top: 159px;
 `;
 
-const LoginLink = styled(Link)`
+const Link = styled(Link)`
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 15px;
