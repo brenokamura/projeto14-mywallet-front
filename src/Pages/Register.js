@@ -39,7 +39,7 @@ function Cadastro() {
           placeholder="Senha"
         />
         <br />
-        <input ddata-test="confirm-password"
+        <input data-test="confirm-password"
           type="password"
           onChange={e => setConfirmPassword(e.target.value)}
           placeholder="Confirme a Senha"
