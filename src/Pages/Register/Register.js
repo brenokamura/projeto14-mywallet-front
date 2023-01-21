@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import styled from "styled-components";
-import { color } from "./Color/Color";
+import { color } from "../Color/Color";
 
 function Cadastro() {
   const body = { name, email, password, confirmPassword };

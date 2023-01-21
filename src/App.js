@@ -4,7 +4,7 @@ import Entry from "./Pages/Entry";
 import Exit from "./Pages/Exit";
 import Home from "./Pages/Home";
 import Login from "./Pages/Login";
-import Register from "./Pages/Register";
+import Register from "./Pages/Register/Register";
 import { UserContext } from "./contexts/UserContext";
 import { useState } from "react";
 import styled from "styled-components";
