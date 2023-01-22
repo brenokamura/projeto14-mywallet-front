@@ -1,4 +1,5 @@
 import { useState, useContext } from 'react';
+import { colors } from "../../color/color";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
