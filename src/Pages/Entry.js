@@ -1,5 +1,5 @@
 import { useState, useContext } from 'react';
-import { colors } from "../../color/color";
+import { color } from "../Color/Color";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
