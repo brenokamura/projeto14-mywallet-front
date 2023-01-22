@@ -6,7 +6,7 @@ import UserContext from '../../contexts/UserContext';
 
 function Login() {
   const body = { email, password };
-  const URL = 'http://localhost:5009/loin'
+  const URL = 'http://localhost:5009/login'
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
