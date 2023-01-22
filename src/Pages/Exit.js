@@ -2,6 +2,7 @@ import { useState, useContext } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import UserContext from '../../contexts/UserContext';
+import { color } from "../Color/Color";
 
 function Saida() {
   const URL = http://localhost:5009/transacoes
