@@ -1,12 +1,12 @@
 import axios from 'axios';
 import { useState, useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-
+import { color } from "../Color/Color";
 import UserContext from '../../contexts/UserContext';
 
 function Login() {
   const body = { email, password };
-  const URL = 'http://localhost:5009/loin'
+  const URL = 'http://localhost:5009/login'
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
