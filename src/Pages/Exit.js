@@ -5,7 +5,7 @@ import UserContext from '../../contexts/UserContext';
 import { color } from "../Color/Color";
 
 function Saida() {
-  const URL = http://localhost:5009/transacoes
+  const URL = 'http://localhost:5009/transacoes';
   const { user } = useContext(UserContext);
   const [value, setValue] = useState('');
   const [description, setDescription] = useState('');
@@ -32,7 +32,7 @@ function Saida() {
 
   return (
     <div>
-      <Title color={colors.text}>Nova saída</Title>
+      <Title color={color.text}>Nova saída</Title>
       <form>
         <input
           type="number"
